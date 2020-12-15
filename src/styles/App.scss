@@ -11,7 +11,10 @@ html {
 }
 
 body {
-  background: $dark-gray;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, $dark-gray 70%, #ff6200d7 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {
