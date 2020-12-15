@@ -11,7 +11,7 @@ const Quiz = () => {
       </header>
       <section className='difficulty-cards'>
         {data.map((obj) => {
-          return <Card key={obj.category} />;
+          return <Card data={obj} key={obj.category} />;
         })}
       </section>
     </main>

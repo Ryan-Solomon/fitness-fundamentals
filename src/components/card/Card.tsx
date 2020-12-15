@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { FC } from 'react';
+import { TData } from '../../data/data';
 import './Card.styles.scss';
 
-const Card = () => {
+type TProps = {
+  data: TData;
+};
+
+const Card: FC<TProps> = ({ data }) => {
+  const { category, questions } = data;
+
   return (
     <div className='l-container'>
       <div className='b-game-card'>
         <div className='b-game-card__cover'>
-          <h1>Beginner</h1>
+          <h1>{category}</h1>
         </div>
       </div>
     </div>

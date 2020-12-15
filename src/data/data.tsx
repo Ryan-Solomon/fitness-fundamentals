@@ -45,3 +45,5 @@ export const data = [
     ],
   },
 ];
+
+export type TData = typeof data[0];
