@@ -4,14 +4,14 @@ export const data = [
     questions: [
       {
         question: 'what is a calorie',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
       {
         question: 'what is a macro',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
     ],
@@ -21,14 +21,14 @@ export const data = [
     questions: [
       {
         question: 'what is a calorie',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
       {
         question: 'what is a macro',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
     ],
@@ -38,14 +38,14 @@ export const data = [
     questions: [
       {
         question: 'what is a calorie',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
       {
         question: 'what is a macro',
-        incorrectAnswers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'd',
+        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
+        correctAnswer: 'c',
         answeredCorrectly: false,
       },
     ],

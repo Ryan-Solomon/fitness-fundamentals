@@ -12,7 +12,7 @@ const QuizQuestions = () => {
   const currentQuestionData = categoryData.questions[questionIdx];
   const {
     question,
-    incorrectAnswers,
+    answers,
     correctAnswer,
     answeredCorrectly,
   } = currentQuestionData;
@@ -22,17 +22,22 @@ const QuizQuestions = () => {
       <div className='card'>
         <div className='face face1'>
           <div className='content'>
-            <BsQuestionSquareFill size={100} />
+            <BsQuestionSquareFill size={150} />
             <h3>Question {questionIdx + 1}</h3>
           </div>
         </div>
         <div className='face face2'>
           <div className='content'>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum
-              cumque minus iste veritatis provident at.
-            </p>
-            <a href='#'>Read More</a>
+            <h2>Q: {question}</h2>
+            <ul>
+              {answers.map((a, idx) => {
+                return (
+                  <h4 key={a.answer + idx}>
+                    {idx + 1}) {a.answer}
+                  </h4>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </div>
