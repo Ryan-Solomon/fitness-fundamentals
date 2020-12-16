@@ -21,14 +21,42 @@ export const data = [
     questions: [
       {
         question: 'what is a calorie',
-        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'c',
+        answers: [
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+        ],
+        correctAnswer:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
         answeredCorrectly: false,
       },
       {
         question: 'what is a macro',
-        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'c',
+        answers: [
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+        ],
+        correctAnswer:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
         answeredCorrectly: false,
       },
     ],
@@ -38,14 +66,42 @@ export const data = [
     questions: [
       {
         question: 'what is a calorie',
-        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'c',
+        answers: [
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+        ],
+        correctAnswer:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
         answeredCorrectly: false,
       },
       {
         question: 'what is a macro',
-        answers: [{ answer: 'a' }, { answer: 'b' }, { answer: 'c' }],
-        correctAnswer: 'c',
+        answers: [
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+          {
+            answer:
+              'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
+          },
+        ],
+        correctAnswer:
+          'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, nobis.',
         answeredCorrectly: false,
       },
     ],

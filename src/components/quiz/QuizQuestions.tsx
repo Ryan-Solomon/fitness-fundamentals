@@ -22,22 +22,24 @@ const QuizQuestions = () => {
       <div className='card'>
         <div className='face face1'>
           <div className='content'>
-            <BsQuestionSquareFill size={150} />
+            <BsQuestionSquareFill size={200} />
             <h3>Question {questionIdx + 1}</h3>
           </div>
         </div>
         <div className='face face2'>
           <div className='content'>
             <h2>Q: {question}</h2>
-            <ul>
+            <ol className='ordered-questions'>
               {answers.map((a, idx) => {
                 return (
-                  <h4 key={a.answer + idx}>
-                    {idx + 1}) {a.answer}
-                  </h4>
+                  <div className='option' key={a.answer + idx}>
+                    <li>{a.answer}</li>
+                    <input id='answer' name='answer' type='radio' />
+                  </div>
                 );
               })}
-            </ul>
+            </ol>
+            <button>Submit Answer</button>
           </div>
         </div>
       </div>

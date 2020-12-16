@@ -15,7 +15,7 @@
 }
 
 .container .card .face {
-  width: 500px;
+  width: 600px;
   height: 200px;
   transition: 0.5s;
 }
@@ -71,4 +71,17 @@
 
 .container .card:hover .face.face2 {
   transform: translateY(0);
+}
+
+.ordered-questions {
+  margin: 1rem 1rem;
+
+  .option {
+    display: flex;
+
+    li {
+      margin-bottom: 1rem;
+      margin-right: 1rem;
+    }
+  }
 }
