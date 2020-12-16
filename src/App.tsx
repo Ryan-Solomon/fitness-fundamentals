@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 import Nav from './components/nav/Nav.component';
 import QuizQuestionsPage from './pages/QuizQuestionsPage';
+import TrainingFundamentalsPage from './pages/TrainingFundamentalsPage';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <Nav />
       <Route exact path='/'>
         <HomePage />
+      </Route>
+      <Route exact path='/training'>
+        <TrainingFundamentalsPage />
       </Route>
       <Route exact path='/quiz'>
         <QuizPage />
