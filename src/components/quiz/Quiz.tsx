@@ -1,9 +1,10 @@
 import React from 'react';
 import Card from '../card/Card';
-import { data } from '../../data/data';
 import './Quiz.styles.scss';
+import { useQuizContext } from '../../context/quizContext';
 
 const Quiz = () => {
+  const { data } = useQuizContext();
   return (
     <main className='quiz-container'>
       <header>

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 import Nav from './components/nav/Nav.component';
+import QuizQuestionsPage from './pages/QuizQuestionsPage';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </Route>
       <Route exact path='/quiz'>
         <QuizPage />
+      </Route>
+      <Route exact path='/quiz/:id'>
+        <QuizQuestionsPage />
       </Route>
     </Router>
   );
