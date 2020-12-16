@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useQuizContext } from '../../context/quizContext';
 import { BsQuestionSquareFill } from 'react-icons/bs';
 import './QuizQuestions.scss';
+import Answers from './Answers';
 
 const QuizQuestions = () => {
   const [questionIdx, setQuestionIdx] = useState(0);
@@ -29,16 +30,17 @@ const QuizQuestions = () => {
         <div className='face face2'>
           <div className='content'>
             <h2>Q: {question}</h2>
-            <ol className='ordered-questions'>
-              {answers.map((a, idx) => {
+            {/* <ol className='ordered-questions'> */}
+            <Answers />
+            {/* {answers.map((a, idx) => {
                 return (
                   <div className='option' key={a.answer + idx}>
                     <li>{a.answer}</li>
                     <input id='answer' name='answer' type='radio' />
                   </div>
                 );
-              })}
-            </ol>
+              })} */}
+            {/* </ol> */}
             <button>Submit Answer</button>
           </div>
         </div>
