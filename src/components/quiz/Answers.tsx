@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './Answers.styles.scss';
 
-const Answers = () => {
+type TProps = {
+  answers: { answer: string }[];
+};
+
+const Answers: FC<TProps> = ({ answers }) => {
   return (
     <>
       <input type='radio' name='field' id='Uno' />
@@ -16,7 +20,7 @@ const Answers = () => {
           <circle id='border' r='18px' cx='20px' cy='20px'></circle>
           <circle id='dot' r='8px' cx='20px' cy='20px'></circle>
         </svg>
-        I like this work
+        {answers[0].answer}
       </label>
       <input type='radio' name='field' id='Dos' />
       <label htmlFor='Dos'>
@@ -30,7 +34,7 @@ const Answers = () => {
           <circle id='border' r='18px' cx='20px' cy='20px'></circle>
           <circle id='dot' r='8px' cx='20px' cy='20px'></circle>
         </svg>
-        Share in social networks
+        {answers[1].answer}
       </label>
       <input type='radio' name='field' id='Tres' />
       <label htmlFor='Tres'>
@@ -44,7 +48,7 @@ const Answers = () => {
           <circle id='border' r='18px' cx='20px' cy='20px'></circle>
           <circle id='dot' r='8px' cx='20px' cy='20px'></circle>
         </svg>
-        Follow the author
+        {answers[2].answer}
       </label>
     </>
   );

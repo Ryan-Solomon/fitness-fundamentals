@@ -29,19 +29,11 @@ const QuizQuestions = () => {
         </div>
         <div className='face face2'>
           <div className='content'>
-            <h2>Q: {question}</h2>
-            {/* <ol className='ordered-questions'> */}
-            <Answers />
-            {/* {answers.map((a, idx) => {
-                return (
-                  <div className='option' key={a.answer + idx}>
-                    <li>{a.answer}</li>
-                    <input id='answer' name='answer' type='radio' />
-                  </div>
-                );
-              })} */}
-            {/* </ol> */}
-            <button>Submit Answer</button>
+            <div className='question-and-answer'>
+              <h2>Q: {question}</h2>
+              <Answers answers={answers} />
+              <button>Submit Answer</button>
+            </div>
           </div>
         </div>
       </div>

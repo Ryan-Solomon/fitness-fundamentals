@@ -11,7 +11,9 @@ $duration: 500;
 
 label {
   //   position: relative;
-  margin: ($size / 2) $size;
+  //   margin: ($size / 2) $size;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
   display: flex;
   width: auto;
   align-items: center;
