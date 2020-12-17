@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 import Nav from './components/nav/Nav.component';
 import QuizQuestionsPage from './pages/QuizQuestionsPage';
-import TrainingFundamentalsPage from './pages/TrainingFundamentalsPage';
+import FundamentalsPage from './pages/FundamentalsPage';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Route exact path='/'>
         <HomePage />
       </Route>
-      <Route exact path='/training'>
-        <TrainingFundamentalsPage />
+      <Route exact path='/fundamentals/:id?'>
+        <FundamentalsPage />
       </Route>
       <Route exact path='/quiz'>
         <QuizPage />

@@ -9,10 +9,10 @@ const Nav = () => {
         <Link to='/'>
           <li>Home</li>
         </Link>
-        <Link to='/training'>
+        <Link to='/fundamentals/training'>
           <li>Training Fundamentals</li>
         </Link>
-        <Link to='/nutrition'>
+        <Link to='/fundamentals/nutrition'>
           <li>Nutrition Fundamentals</li>
         </Link>
         <Link to='/quiz'>
