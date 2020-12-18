@@ -2,9 +2,14 @@ import React from 'react';
 import './SideBar.styles.scss';
 
 const SideBar = () => {
+  const [show, setShow] = React.useState(true);
+
+  if (!show) return null;
+
   return (
     <>
       <nav className='container'>
+        <button onClick={() => setShow(false)}>X</button>
         <div className='link'>
           <div className='text'>Lessons</div>
         </div>
