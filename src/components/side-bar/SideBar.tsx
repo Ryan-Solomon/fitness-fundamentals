@@ -1,22 +1,30 @@
 import React from 'react';
+import './SideBar.styles.scss';
 
 const SideBar = () => {
   return (
-    <div className='sidebar-container'>
-      <h1>Lessons</h1>
-      <ul>
-        <li>Lesson 1 - Training Principles Introduction</li>
-        <li>Lesson 2 - Specificity</li>
-        <li>Lesson 3 - Progressive Overload</li>
-        <li>Lesson 4 - Fatigue Management</li>
-        <li>Lesson 5 - Training Variables Introduction</li>
-        <li>Lesson 6 - Volume</li>
-        <li>Lesson 7 - Frequency</li>
-        <li>Lesson 9 - Relative Intensity</li>
-        <li>Lesson 8 - Absolute Intensity</li>
-        <li>Lesson 10 - </li>
-      </ul>
-    </div>
+    <>
+      <nav className='container'>
+        <div className='link'>
+          <div className='text'>Lessons</div>
+        </div>
+        <div className='link'>
+          <div className='text'>1. Projects</div>
+        </div>
+        <div className='link'>
+          <div className='text'>2. Art</div>
+        </div>
+        <div className='link'>
+          <div className='text'>3. Social</div>
+        </div>
+        <div className='link'>
+          <div className='text'>4. Setup</div>
+        </div>
+        <div className='link'>
+          <div className='text'>5. Help</div>
+        </div>
+      </nav>
+    </>
   );
 };
 
